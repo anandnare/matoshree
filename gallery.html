@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Gallery | Matoshree Institute of Paramedical Sciences</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Ecosystem Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-heart-pulse"></i> Matoshree<span></span>
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="courses.html">Courses</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="staff.html">Staff</a>
+            <a href="students.html">Our Students</a>
+            <a href="branches.html">Our Branches</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+        </div>
+    </header>
+
+    <!-- Subpage Subdued Banner -->
+    <section class="gallery-banner">
+        <div class="container" style="padding: 0;">
+            <h1>Campus Media Archive</h1>
+            <p>A visual portfolio of medical laboratory exhibitions, structural academic field trips, and events.</p>
+        </div>
+    </section>
+
+    <!-- Main Dynamic Gallery Space -->
+    <section class="interactive-gallery">
+        <div class="container">
+            
+            <!-- Category Filtering Mechanism -->
+            <div class="gallery-filter-tabs">
+                <button class="filter-btn active" data-target="all">All Media</button>
+                <button class="filter-btn" data-target="trips">Educational Trips</button>
+                <button class="filter-btn" data-target="events">Campus Events</button>
+                <button class="filter-btn" data-target="labs">Practical Labs</button>
+            </div>
+
+            <!-- Image Asset Matrix -->
+            <div class="gallery-matrix">
+
+                <!-- Asset 1: Trip Category -->
+                <div class="gallery-item" data-category="trips">
+                    <div class="media-box">
+                        <img src="90.jpg" alt="Students Visiting Multi-Specialty Pathology Unit">
+                    </div>
+                    <div class="media-caption">
+                        <span><i class="fa-solid fa-bus-sharp"></i> Trips</span>
+                        <h4>Visit to Damani Blood bank Solapur</h4>
+                    </div>
+                </div>
+
+                <!-- Asset 2: Event Category -->
+                <div class="gallery-item" data-category="events">
+                    <div class="media-box">
+                        <img src="79.jpg" alt="Blood Donation Infrastructure Camp">
+                    </div>
+                    <div class="media-caption">
+                        <span><i class="fa-solid fa-calendar-check"></i> Events</span>
+                        <h4>celebrating Independence day. </h4>
+                    </div>
+                </div>
+
+                <!-- Asset 3: Lab Category -->
+                <div class="gallery-item" data-category="labs">
+                    <div class="media-box">
+                        <img src="81.jpg" alt="Camps">
+                    </div>
+                    <div class="media-caption">
+                        <span><i class="fa-solid fa-microscope"></i> Event and Camps</span>
+                        <h4>Camps</h4>
+                    </div>
+                </div>
+
+                <!-- Asset 4: Trip Category -->
+                <div class="gallery-item" data-category="trips">
+                    <div class="media-box">
+                        <img src="72.jpg" alt="Historical Trip">
+                    </div>
+                    <div class="media-caption">
+                        <span><i class="fa-solid fa-bus-sharp"></i> Trips</span>
+                        <h4>Historical Place Trip</h4>
+                    </div>
+                </div>
+
+                <!-- Asset 5: Event Category -->
+                <div class="gallery-item" data-category="events">
+                    <div class="media-box">
+                        <img src="61.jpg" alt="Ganpati Visarjan">
+                    </div>
+                    <div class="media-caption">
+                        <span><i class="fa-solid fa-calendar-check"></i> Events</span>
+                        <h4>Ganpati Visarjan Event </h4>
+                    </div>
+                </div>
+
+                <!-- Asset 6: Lab Category -->
+                <div class="gallery-item" data-category="labs">
+                    <div class="media-box">
+                        <img src="66.jpg" alt="Students managing high precision automated diagnostic apparatus">
+                    </div>
+                    <div class="media-caption">
+                        <span><i class="fa-solid fa-microscope"></i> Camp</span>
+                        <h4>The health camp at a village.</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Shared Architecture Footer -->
+        <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3><i class="fa-solid fa-heart-pulse"></i> Matoshree College</h3>
+                <p>Delivering premier education in Allied Health Sciences to secure a healthy, reliable, and innovative future for healthcare systems globally.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Access</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Matoshri-paramedical-institute-murum/100071549280217/?_rdrs" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.minps.in" target="_blank" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+                    <a href="mailto:matoshriparamedical10@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Matoshree Paramedical College of Sciences. All Rights Reserved.</p>
+            <p class="developer-credit">
+                This website is developed and designed by <strong>Gaurai Websolutions Team.</strong> <br>
+                Email: <a href="mailto:gauraiwebsolutions@yahoo.com">gauraiwebsolutions@yahoo.com</a> | <a href="mailto:nare.anand@yahoo.com">nare.anand@yahoo.com</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>  
